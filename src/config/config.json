@@ -1,0 +1,15 @@
+{
+  "development": {
+    "clientPath": "http://localhost:3000",
+    "serverPath": "http://localhost:3001/api"
+  },
+  "staging": {
+    "clientPath": "http://localhost:3000",
+    "serverPath": "http://44.196.36.165:3001/api"
+  },
+  "production": {
+    "clientPath": "http://44.196.36.165",
+    "serverPath": "http://44.196.36.165:3001/api",
+    "steamImageUrl": "https://community.cloudflare.steamstatic.com/economy/image/"
+  }
+}
